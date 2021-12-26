@@ -1,5 +1,5 @@
 {
-  "name": "tinyframework-echo",
+  "name": "@sgc-fireball/tinyframework-echo",
   "version": "0.1.0",
   "main": "example.js",
   "private": false,
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/sgc-fireball/tinyframework-echo/issues"
   },
-  "homepage": "https://github.com/sgc-fireball/tinyframework-echo"
+  "homepage": "https://github.com/sgc-fireball/tinyframework-echo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgc-fireball/tinyframework-echo.git"
+  }
 }
