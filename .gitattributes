@@ -1,0 +1,30 @@
+* text eol=LF
+
+*.pdf binary -diff
+*.phar binary -diff
+*.zip binary -diff
+*.rar binary -diff
+*.7z binary -diff
+*.gz binary -diff
+*.jpg binary -diff
+*.png binary -diff
+*.webp binary -diff
+*.gif binary -diff
+*.ttf binary -diff
+*.woff binary -diff
+*.woff2 binary -diff
+*.eot binary -diff
+
+*.php text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=4 diff=php
+*.html text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=4 diff=html
+
+*.less text linguist-vendored eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
+*.scss linguist-vendored eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
+*.css linguist-vendored eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
+*.md text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
+*.js linguist-vendored eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
+*.json text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
+
+.env export-ignore
+phpstan.neon export-ignore
+readme.md export-ignore
