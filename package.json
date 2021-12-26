@@ -8,5 +8,8 @@
     "express-ws": "^5.0.2",
     "http": "^0.0.1-security",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node example.js"
   }
 }

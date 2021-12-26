@@ -9,7 +9,7 @@ const stopping = () => {
 };
 
 setInterval(() => {
-    broadcast('system', {'time': date.getTime()});
+    broadcast('system', {'time': (new Date).getTime()});
 }, 5000);
 
 process.on('SIGHUP', stopping); // 1 - Temrinal closed
