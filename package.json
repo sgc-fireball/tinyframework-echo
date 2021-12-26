@@ -1,5 +1,8 @@
 {
-  "private": true,
+  "name": "tinyframework-echo",
+  "version": "0.1.0",
+  "main": "example.js",
+  "private": false,
   "dependencies": {
     "node": "^14",
     "cors": "^2.8.5",
@@ -11,5 +14,11 @@
   },
   "scripts": {
     "start": "node example.js"
-  }
+  },
+  "author": "Richard Huelsberg (rh+github@hrdns.de)",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/sgc-fireball/tinyframework-echo/issues"
+  },
+  "homepage": "https://github.com/sgc-fireball/tinyframework-echo"
 }
