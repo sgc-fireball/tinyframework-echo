@@ -85,7 +85,7 @@ class Broadcast {
 
     _onClose(e) {
         this.errorCount++;
-        const timeToWait = Math.pow(this.errorCount, 2) * 0.5;
+        const timeToWait = Math.min(60, Math.pow(this.errorCount, 2) * 0.5);
         console.log('Broadcast::disconnected - start reconnect in', timeToWait, 'seconds.');
         this.pws = new Promise((resolve) => {
             this._resolve = resolve;
